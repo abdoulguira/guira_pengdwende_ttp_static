@@ -4,7 +4,7 @@
 function startTime(){
 
 var today=new Date();
-var h=today.getHours()-12;
+var h=Math.abs(today.getHours()-12);
 var m=today.getMinutes();
 var s=today.getSeconds();
 
